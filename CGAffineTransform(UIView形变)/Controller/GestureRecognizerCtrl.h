@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GestureRecognizerCtrl.h
 //  CGAffineTransform(UIView形变)
 //
 //  Created by LOLITA on 17/6/21.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GestureRecognizerCtrl : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIView *testView;
 
 
 @end
-

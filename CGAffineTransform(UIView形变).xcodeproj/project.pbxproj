@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		D38A3DC81EFA3F9B00DF682E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DC71EFA3F9B00DF682E /* main.m */; };
 		D38A3DCB1EFA3F9B00DF682E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DCA1EFA3F9B00DF682E /* AppDelegate.m */; };
-		D38A3DCE1EFA3F9B00DF682E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DCD1EFA3F9B00DF682E /* ViewController.m */; };
-		D38A3DD11EFA3F9B00DF682E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DCF1EFA3F9B00DF682E /* Main.storyboard */; };
 		D38A3DD31EFA3F9B00DF682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DD21EFA3F9B00DF682E /* Assets.xcassets */; };
 		D38A3DD61EFA3F9B00DF682E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DD41EFA3F9B00DF682E /* LaunchScreen.storyboard */; };
+		D38A3DE61EFA414100DF682E /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DE41EFA414100DF682E /* UIView+AdjustFrame.m */; };
+		D38A3DF21EFA48CD00DF682E /* CGAffineTransformCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DF01EFA48CD00DF682E /* CGAffineTransformCtrl.m */; };
+		D38A3DF31EFA48CD00DF682E /* CGAffineTransformCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DF11EFA48CD00DF682E /* CGAffineTransformCtrl.xib */; };
+		D38A3DF71EFA603500DF682E /* GestureRecognizerCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DF51EFA603500DF682E /* GestureRecognizerCtrl.m */; };
+		D38A3DF81EFA603500DF682E /* GestureRecognizerCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DF61EFA603500DF682E /* GestureRecognizerCtrl.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D38A3DC31EFA3F9B00DF682E /* CGAffineTransform(UIView形变).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGAffineTransform(UIView形变).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38A3DC71EFA3F9B00DF682E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D38A3DC91EFA3F9B00DF682E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D38A3DCA1EFA3F9B00DF682E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D38A3DCC1EFA3F9B00DF682E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D38A3DCD1EFA3F9B00DF682E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D38A3DD01EFA3F9B00DF682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D38A3DC91EFA3F9B00DF682E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		D38A3DCA1EFA3F9B00DF682E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		D38A3DD21EFA3F9B00DF682E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38A3DD51EFA3F9B00DF682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38A3DD71EFA3F9B00DF682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38A3DE31EFA414100DF682E /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		D38A3DE41EFA414100DF682E /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		D38A3DE51EFA414100DF682E /* MyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMacro.h; sourceTree = "<group>"; };
+		D38A3DE71EFA414700DF682E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D38A3DEF1EFA48CD00DF682E /* CGAffineTransformCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformCtrl.h; sourceTree = "<group>"; };
+		D38A3DF01EFA48CD00DF682E /* CGAffineTransformCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformCtrl.m; sourceTree = "<group>"; };
+		D38A3DF11EFA48CD00DF682E /* CGAffineTransformCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGAffineTransformCtrl.xib; sourceTree = "<group>"; };
+		D38A3DF41EFA603500DF682E /* GestureRecognizerCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerCtrl.h; sourceTree = "<group>"; };
+		D38A3DF51EFA603500DF682E /* GestureRecognizerCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerCtrl.m; sourceTree = "<group>"; };
+		D38A3DF61EFA603500DF682E /* GestureRecognizerCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureRecognizerCtrl.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,8 @@
 		D38A3DC51EFA3F9B00DF682E /* CGAffineTransform(UIView形变) */ = {
 			isa = PBXGroup;
 			children = (
-				D38A3DC91EFA3F9B00DF682E /* AppDelegate.h */,
-				D38A3DCA1EFA3F9B00DF682E /* AppDelegate.m */,
-				D38A3DCC1EFA3F9B00DF682E /* ViewController.h */,
-				D38A3DCD1EFA3F9B00DF682E /* ViewController.m */,
-				D38A3DCF1EFA3F9B00DF682E /* Main.storyboard */,
+				D38A3DE11EFA413400DF682E /* Controller */,
+				D38A3DE21EFA413400DF682E /* Other */,
 				D38A3DD21EFA3F9B00DF682E /* Assets.xcassets */,
 				D38A3DD41EFA3F9B00DF682E /* LaunchScreen.storyboard */,
 				D38A3DD71EFA3F9B00DF682E /* Info.plist */,
@@ -77,6 +84,32 @@
 				D38A3DC71EFA3F9B00DF682E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D38A3DE11EFA413400DF682E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D38A3DEF1EFA48CD00DF682E /* CGAffineTransformCtrl.h */,
+				D38A3DF01EFA48CD00DF682E /* CGAffineTransformCtrl.m */,
+				D38A3DF11EFA48CD00DF682E /* CGAffineTransformCtrl.xib */,
+				D38A3DF41EFA603500DF682E /* GestureRecognizerCtrl.h */,
+				D38A3DF51EFA603500DF682E /* GestureRecognizerCtrl.m */,
+				D38A3DF61EFA603500DF682E /* GestureRecognizerCtrl.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D38A3DE21EFA413400DF682E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D38A3DE71EFA414700DF682E /* PrefixHeader.pch */,
+				D38A3DE31EFA414100DF682E /* UIView+AdjustFrame.h */,
+				D38A3DE41EFA414100DF682E /* UIView+AdjustFrame.m */,
+				D38A3DE51EFA414100DF682E /* MyMacro.h */,
+				D38A3DC91EFA3F9B00DF682E /* AppDelegate.h */,
+				D38A3DCA1EFA3F9B00DF682E /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +143,7 @@
 				TargetAttributes = {
 					D38A3DC21EFA3F9B00DF682E = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DY8NXRF8KD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38A3DF31EFA48CD00DF682E /* CGAffineTransformCtrl.xib in Resources */,
 				D38A3DD61EFA3F9B00DF682E /* LaunchScreen.storyboard in Resources */,
+				D38A3DF81EFA603500DF682E /* GestureRecognizerCtrl.xib in Resources */,
 				D38A3DD31EFA3F9B00DF682E /* Assets.xcassets in Resources */,
-				D38A3DD11EFA3F9B00DF682E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +185,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38A3DCE1EFA3F9B00DF682E /* ViewController.m in Sources */,
 				D38A3DCB1EFA3F9B00DF682E /* AppDelegate.m in Sources */,
 				D38A3DC81EFA3F9B00DF682E /* main.m in Sources */,
+				D38A3DF21EFA48CD00DF682E /* CGAffineTransformCtrl.m in Sources */,
+				D38A3DE61EFA414100DF682E /* UIView+AdjustFrame.m in Sources */,
+				D38A3DF71EFA603500DF682E /* GestureRecognizerCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D38A3DCF1EFA3F9B00DF682E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D38A3DD01EFA3F9B00DF682E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D38A3DD41EFA3F9B00DF682E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,7 +299,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY8NXRF8KD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGAffineTransform(UIView形变)/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "CGAffineTransform(UIView形变)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LOLITA.CGAffineTransform-UIView---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +314,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY8NXRF8KD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGAffineTransform(UIView形变)/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "CGAffineTransform(UIView形变)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LOLITA.CGAffineTransform-UIView---";
 				PRODUCT_NAME = "$(TARGET_NAME)";

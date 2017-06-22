@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CGAffineTransformCtrl.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UINavigationController *ctrl = [[UINavigationController alloc] initWithRootViewController:[CGAffineTransformCtrl new]];
+    
+    self.window = [[UIWindow alloc] initWithFrame:kScreenBounds];
+    
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = ctrl;
+    
+    
     return YES;
 }
 
