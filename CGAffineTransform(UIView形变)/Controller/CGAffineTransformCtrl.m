@@ -8,6 +8,7 @@
 
 #import "CGAffineTransformCtrl.h"
 #import "GestureRecognizerCtrl.h"
+#import "LoadingViewCtrl.h"
 
 @interface CGAffineTransformCtrl ()
 {
@@ -227,6 +228,8 @@
 
 
 
+
+
 -(void)initUI{
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
@@ -238,8 +241,12 @@
     [self.nextBtn setTitle:titles.firstObject forState:UIControlStateNormal];
     
     
-     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:self.nextPage];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:self.nextPage];
     self.navigationItem.rightBarButtonItem = item;
+    
+    UIBarButtonItem *item2 = [[UIBarButtonItem alloc] initWithCustomView:self.nextPageBtn2];
+    self.navigationItem.leftBarButtonItem = item2;
+    
     
 }
 
@@ -282,4 +289,13 @@
     [self.navigationController pushViewController:ctrl animated:YES];
     
 }
+
+- (IBAction)nextPageBtn2:(UIButton *)sender {
+    
+    LoadingViewCtrl *ctrl = [LoadingViewCtrl new];
+    [self.navigationController pushViewController:ctrl animated:YES];
+}
+
+
+
 @end

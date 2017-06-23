@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D350F7481EFCBED7003F9A59 /* LoadingViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D350F7471EFCBED7003F9A59 /* LoadingViewCtrl.m */; };
+		D350F74C1EFCBF02003F9A59 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D350F74B1EFCBF02003F9A59 /* LoadingView.m */; };
 		D38A3DC81EFA3F9B00DF682E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DC71EFA3F9B00DF682E /* main.m */; };
 		D38A3DCB1EFA3F9B00DF682E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DCA1EFA3F9B00DF682E /* AppDelegate.m */; };
 		D38A3DD31EFA3F9B00DF682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DD21EFA3F9B00DF682E /* Assets.xcassets */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D350F7461EFCBED7003F9A59 /* LoadingViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewCtrl.h; sourceTree = "<group>"; };
+		D350F7471EFCBED7003F9A59 /* LoadingViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewCtrl.m; sourceTree = "<group>"; };
+		D350F74A1EFCBF02003F9A59 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		D350F74B1EFCBF02003F9A59 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		D38A3DC31EFA3F9B00DF682E /* CGAffineTransform(UIView形变).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGAffineTransform(UIView形变).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38A3DC71EFA3F9B00DF682E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D38A3DC91EFA3F9B00DF682E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D350F7491EFCBEF7003F9A59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D350F74A1EFCBF02003F9A59 /* LoadingView.h */,
+				D350F74B1EFCBF02003F9A59 /* LoadingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D38A3DBA1EFA3F9B00DF682E = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				D38A3DE11EFA413400DF682E /* Controller */,
+				D350F7491EFCBEF7003F9A59 /* View */,
 				D38A3DE21EFA413400DF682E /* Other */,
 				D38A3DD21EFA3F9B00DF682E /* Assets.xcassets */,
 				D38A3DD41EFA3F9B00DF682E /* LaunchScreen.storyboard */,
@@ -89,6 +105,8 @@
 		D38A3DE11EFA413400DF682E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D350F7461EFCBED7003F9A59 /* LoadingViewCtrl.h */,
+				D350F7471EFCBED7003F9A59 /* LoadingViewCtrl.m */,
 				D38A3DEF1EFA48CD00DF682E /* CGAffineTransformCtrl.h */,
 				D38A3DF01EFA48CD00DF682E /* CGAffineTransformCtrl.m */,
 				D38A3DF11EFA48CD00DF682E /* CGAffineTransformCtrl.xib */,
@@ -187,6 +205,8 @@
 			files = (
 				D38A3DCB1EFA3F9B00DF682E /* AppDelegate.m in Sources */,
 				D38A3DC81EFA3F9B00DF682E /* main.m in Sources */,
+				D350F74C1EFCBF02003F9A59 /* LoadingView.m in Sources */,
+				D350F7481EFCBED7003F9A59 /* LoadingViewCtrl.m in Sources */,
 				D38A3DF21EFA48CD00DF682E /* CGAffineTransformCtrl.m in Sources */,
 				D38A3DE61EFA414100DF682E /* UIView+AdjustFrame.m in Sources */,
 				D38A3DF71EFA603500DF682E /* GestureRecognizerCtrl.m in Sources */,
@@ -344,6 +364,7 @@
 				D38A3DDC1EFA3F9B00DF682E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,11 +14,26 @@
 - (IBAction)next:(UIButton *)sender;
 
 
+
+
+
 @property (weak, nonatomic) IBOutlet UILabel *label;
+
+
 
 
 - (IBAction)nextPageBtn:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextPage;
+
+
+
+
+
+
+- (IBAction)nextPageBtn2:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextPageBtn2;
+
+
 
 
 @end
